@@ -64,6 +64,7 @@ function App() {
             padding: "32px",
             borderBottomLeftRadius: "6px",
             borderBottomRightRadius: "6px",
+            boxShadow: "0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23)"
           }}
             wrapLines={true}
           >
@@ -78,7 +79,8 @@ function App() {
           <SyntaxHighlighter language="javascript" style={dracula} customStyle={{
             padding: "32px",
             borderBottomLeftRadius: "6px",
-            borderBottomRightRadius: "6px"
+            borderBottomRightRadius: "6px",
+            boxShadow: "0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23)"
           }}
           >
             {reactSnippet}
