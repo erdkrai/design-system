@@ -58,7 +58,7 @@ function App() {
 
         <div>
           <div className="flex justify-between px-6 py-4 text-white bg-slate-600 items-center text-lg rounded-t-md">
-            <p>Type Snippet for Typescript Users</p>
+            <p>Re:Script Types Snippet</p>
           </div>
           <SyntaxHighlighter language="javascript" style={dracula} customStyle={{
             padding: "32px",
@@ -74,7 +74,7 @@ function App() {
 
         <div>
           <div className="flex justify-between px-6 py-4 text-white bg-slate-600 items-center text-lg rounded-t-md overflow-hidden">
-            <p>Snippet for React Users</p>
+            <p>Snippet for Plain React Framework</p>
           </div>
           <SyntaxHighlighter language="javascript" style={dracula} customStyle={{
             padding: "32px",
